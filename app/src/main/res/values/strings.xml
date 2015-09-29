@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Calculator</string>
+    <string name="sumar">Add</string>
+    <string name="restar">Rest</string>
+    <string name="multiplicar">Multi</string>
+    <string name="dividir">Divid</string>
+    <string name="numeroUno">Number 1</string>
+    <string name="numeroDos">Number 2</string>
+    <string name="result">"Result : "</string>
+</resources>

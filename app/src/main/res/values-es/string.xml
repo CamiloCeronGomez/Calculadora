@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="action_settings">Comfiguracion</string>
+    <string name="titulo">Calculadora</string>
+    <string name="sumar">Sumar</string>
+    <string name="restar">Restar</string>
+    <string name="multiplicar">Multi</string>
+    <string name="dividir">Divid</string>
+    <string name="numeroUno">Numero 1</string>
+    <string name="numeroDos">Numero 2</string>
+    <string name="result">"Resultado : "</string>
+
+</resources>
