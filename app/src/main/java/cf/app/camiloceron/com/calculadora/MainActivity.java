@@ -45,24 +45,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int i1 = Integer.parseInt(n1);
         int i2 = Integer.parseInt(n2);
 
-        int result = 0;
 
-        switch (view.getId()){
-            case R.id.btn_add:
-                result = i1 + i2;
-                break;
-            case R.id.btn_rest:
-                result = i1 - i2;
-                break;
-            case R.id.btn_multi:
-                result = i1 * i2;
-                break;
-            case R.id.btn_div:
-                result = i1/i2;
-                break;
 
-        }
-        Toast.makeText(this, getString(R.string.result)+result, Toast.LENGTH_SHORT).show();
+            int result = 0;
+
+            switch (view.getId()) {
+                case R.id.btn_add:
+                    result = i1 + i2;
+                    break;
+                case R.id.btn_rest:
+                    result = i1 - i2;
+                    break;
+                case R.id.btn_multi:
+                    result = i1 * i2;
+                    break;
+                case R.id.btn_div:
+                    if (i2 != 0) {
+                    result = i1 / i2;
+                    }else{
+
+                        Toast.makeText(this,getString(R.string.infinity),Toast.LENGTH_SHORT ).show();
+                    }
+                    break;
+
+            }
+            Toast.makeText(this, getString(R.string.result) + result, Toast.LENGTH_SHORT).show();
 
     }
 }

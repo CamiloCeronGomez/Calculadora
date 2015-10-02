@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">Calculadora</string>
 
     <string name="action_settings">Comfiguracion</string>
     <string name="titulo">Calculadora</string>
@@ -11,5 +11,6 @@
     <string name="numeroUno">Numero 1</string>
     <string name="numeroDos">Numero 2</string>
     <string name="result">"Resultado : "</string>
+    <string name="infinity">Infinito</string>
 
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculadora</string>
+    <string name="app_name">Calculator</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -11,4 +11,6 @@
     <string name="numeroUno">Number 1</string>
     <string name="numeroDos">Number 2</string>
     <string name="result">"Result : "</string>
+    <string name="infinity">Infinity</string>
+
 </resources>
